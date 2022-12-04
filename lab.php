@@ -31,6 +31,10 @@ $reversed = array_reverse($a);
 echo "<pre>";
 print_r ($reversed);
 echo "</pre>";
+echo "<pre>";
+rsort($reversed);
+print_r ($reversed);
+echo "</pre>";
 echo "<br>";
 
 $b=array("Sara"=>31,"John"=>41,"Walaa"=>39,"Ramy"=>40) ;
